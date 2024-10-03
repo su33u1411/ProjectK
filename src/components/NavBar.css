@@ -1,0 +1,67 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Udemy Sans','SF Pro Text';
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.navContainerparent-div
+{
+    min-height: 72px;
+    background-color: red;
+}
+
+.navContainerparent-div::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#navLogo-div
+{
+    float: left;
+    width: 10%;
+    min-height: 72px;
+    margin: auto;
+    background-color: white;
+}
+
+.navLogo
+{
+    margin-left: 10%;
+    min-height: 100%;
+
+}
+
+img
+{
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+#navbtnContainer-div
+{
+    width: 88%;
+    float: right;
+    min-height: 72px;
+    line-height: 80px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.navItemText
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navIteminput
+{
+    width: 18%;
+    border-radius: 15px;
+    min-height: 100%;
+}
