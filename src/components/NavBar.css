@@ -4,13 +4,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Udemy Sans','SF Pro Text';
-    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 1rem;
+    color: #2d2f31;
 }
 
 .navContainerparent-div
 {
     min-height: 72px;
-    background-color: red;
 }
 
 .navContainerparent-div::after
@@ -26,14 +26,12 @@
     width: 10%;
     min-height: 72px;
     margin: auto;
-    background-color: white;
 }
 
 .navLogo
 {
     margin-left: 10%;
     min-height: 100%;
-
 }
 
 img
@@ -45,23 +43,35 @@ img
 
 #navbtnContainer-div
 {
-    width: 88%;
+    width: 72%;
     float: right;
     min-height: 72px;
     line-height: 80px;
-    background-color: blue;
-    border: 2px solid black;
+    float: left; 
+
+}
+#navbticon-div
+{
+    width: 18%;
+    min-height: 80px;
+    padding-top: 20px;
+    float: left;
 }
 
 .navItemText
 {
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 15px;
 }
 
 .navIteminput
 {
-    width: 18%;
-    border-radius: 15px;
-    min-height: 100%;
+    width: 50%;
+    border-radius: 35px;
+    min-height: 55px;
+}
+
+.navItemBtnIcon
+{
+    margin-right: 25px;
 }
